@@ -6,10 +6,10 @@ description: Square helps millions of sellers run their business- from secure cr
   up today!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
 x-kinRank: "9"
-x-alexaRank: "2436"
+x-alexaRank: "2433"
 tags: Retrieve
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/retrieve/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,7 +23,7 @@ apis:
     its [CatalogModifierList](#type-catalogmodifierlist) objects, and the ids of
     any [CatalogTax](#type-catalogtax) objects that apply to it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/batch-retrieve
   tags: BatchRetrieveCatalogObjects
   properties:
@@ -40,7 +40,7 @@ apis:
     [CatalogModifierList](#type-catalogmodifierlist) objects, and the ids of
     any [CatalogTax](#type-catalogtax) objects that apply to it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/catalog/object/{object_id}
   tags: RetrieveCatalogObject
   properties:
@@ -50,7 +50,7 @@ apis:
   x-api-slug: square-connect-api
   description: Returns details for a single customer.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/customers/{customer_id}
   tags: RetrieveCustomer
   properties:
@@ -60,7 +60,7 @@ apis:
   x-api-slug: square-connect-api
   description: Retrieves details for a single transaction.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v2/locations/{location_id}/transactions/{transaction_id}
   tags: RetrieveTransaction
   properties:
@@ -72,13 +72,15 @@ apis:
     card processing to point of sale solutions. Get paid faster with Square and sign
     up today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com//
   tags: Retrieve
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/retrieve/master/_listings/square/openapi.md
 x-common:
+- type: x-website
+  url: http://square.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
@@ -107,6 +109,8 @@ x-common:
   url: takedowns@squareup.com
 - type: x-github
   url: https://github.com/square
+- type: x-linkedin
+  url: https://www.linkedin.com/company/square--/
 - type: x-twitter
   url: https://twitter.com/Square
 - type: x-website
